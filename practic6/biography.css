@@ -1,3 +1,7 @@
+*{
+   box-sizing: border-box;
+   padding:0;
+}
 .lin{
     background-color: blue;
     text-decoration:none;
@@ -81,15 +85,16 @@
 }
 .onen, .twow, .trer, .quat, .five{
    
-   padding:8px;
+   /* padding:8px; */
 }
 .cont1,.cont2,.cont3,.cont4,.cont5{
    padding: 5px;
+   
 }
  h3{
     font-size: 1.404em;
  }
- article>a{
+ .bo{
     font-weight:bold;
     
  }
@@ -105,10 +110,10 @@
  }
  
  @media (min-width: 992px){
-   .onen, .twow, .trer{
+   .cont1, .cont2, .cont3 {
     height: 450px;
    }
-   .quat, .five{
+   .cont4, .cont5{
    height: 250px;
    }
 
@@ -152,7 +157,7 @@
    
 }
 @media (min-width: 768px) and (max-width: 992px){
-   .onen, .twow, .trer,.quat{
+  .cont1, .cont2, .cont3, .cont4 {
       height: 350px;
    }
    .col-md-1 {

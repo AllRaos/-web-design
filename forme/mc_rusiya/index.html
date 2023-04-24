@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>MC_Rusiya production</title>
+</head>
+<body>
+    <article class="fourth_block">
+        <div class="fourth_block-wrapper">
+            <div class="fourth_block-content">
+                <div class="content-input_block">
+                    <div class="fourth_block-valute_chose">
+                        <label class="input_name">Валюта</label>
+                            <label class="dnone">valute
+                                <select class="input_valute" >
+                                    <option value="$">USD</option>
+                                    <option value="€">EUR</option>
+                                    <option value="₴">UAH</option>
+                                </select>
+                            </label>
+                    </div>
+                    <div class="fourth_block-suma_chose">
+                        <label class="input_name">Сумa</label>
+                            
+                        <input type="range" data-calc-param="amount" data-calc-source="" step="1" min="0" max="11" value="0" class="has-value" placeholder="range">
+                        <div class="input_sum_real">asa</div>
+                        <div class="input_sum_result">aba</div>
+
+
+                    </div>
+                    <div class="fourth_block-termin_chose">
+                    <label class="input_name">Термін</label>
+                            <input type="range" data-calc-param="amount" data-calc-source="" step="1" min="0" max="11" value="0" class="has-value_term has-value" placeholder="range">
+                    <div class="input_term_real">asa</div>
+                    <div class="input_term_result">aba</div>    
+                    </div>
+                </div>
+                <div class="content-result_block">
+                    <div class="result_block-header">
+                        <div class="header_content">
+                            <span class="item">Загальні витрати</span>
+                            <span class="item_over_pay">200000</span>
+                            <span class="item_curency">$</span>
+                        </div>
+                    </div>
+                    <div class="result_block-min_pay">
+                        <div class="header_content">
+                            <span class="item">Мінімальний платіж</span>
+                            <span class="item_min_pay">1000</span>
+                            <span class="item_curency">$</span>
+                        </div>
+                    </div>
+                    <div class="result_block-first_pay_date">
+                        <div class="header_content">
+                            <span class="item">Дата внесення першого платежу</span>
+                            <span class="item">До 21.05.2023</span>
+                        </div>
+                    </div>
+                    <div class="result_block-credit_sum">
+                        <div class="header_content">
+                            <span class="item">Загальна вартість кредиту</span>
+                            <span class="item_sum">237000</span>
+                            <span class="item_curency">$</span>
+                        </div>
+                    </div>
+                    <div class="result_block-year_procent">
+                        <div class="header_content">
+                            <span class="item">Реальна річна процентна ставка</span>
+                            <span class="item_year_percent">43.45% річних</span>
+                        </div>
+                    </div>       
+                </div>
+            </div>
+        </div>
+    </article>
+    <script src="js/index.js"></script>
+</body>
+</html>

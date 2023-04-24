@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*, :after, :before {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:active, :focus {
+    outline: 0;
+}
+a:active, a:focus {
+    outline: 0;
+}
+aside, footer, header, nav {
+    display: block;
+}
+body, html {
+    height: 300vh;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 24px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%}
+
+
+button, input, textarea {
+    font-family: inherit;
+}
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a, a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+ /* Кінець обнуляючого */
+
+.fourth_block-wrapper{
+    background-color: #9b4ebe;
+    width: 100%;
+    height:130vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth_block-content{
+    width: 80%;
+    height: 100vh;
+    background-color: #fff;
+    border-radius: 24px;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.content-input_block{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items:center;
+}
+.content-result_block{
+    width: 50%;
+    height: inherit;
+    
+}
+
+.fourth_block-valute_chose{
+    position: relative;
+    width: 100%;
+    height: 55px;
+    margin-left: 10%;
+    margin-bottom: 40px;
+}
+.fourth_block-suma_chose{
+    position: relative;
+    width: 100%;
+    height: 55px;
+    margin-left: 10%;
+    margin-bottom: 40px;
+}
+.fourth_block-termin_chose{
+    position: relative;
+    width: 100%;
+    height: 55px;
+    margin-left: 10%;
+}
+.input_name{
+   opacity: 0.7;
+   font-size: 18px;
+   font-weight:600;
+   position: absolute;
+   top:0;
+   left:0;
+}
+.dnone{
+    color:#fff;
+}
+.input_valute{
+    position: absolute;
+    left:0;
+    bottom:0;
+    width:90%;
+    height:auto;
+    padding-top: 40.33px;
+    z-index: 1;
+    background-color: transparent;
+    font-size: 17px;
+}
+.has-value{
+    width: 90%;
+    height: auto;
+    position: absolute;
+    left:0;
+    bottom:0;
+}
+input[type="range"] {
+    -webkit-appearance:none;
+    height: 2px;  
+    border-radius: 5px; 
+    background-color: #ec416c;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance:none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #ec416c;
+  }
+.content-result_block{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+    
+    justify-content: center;
+    position: relative;
+}
+.result_block-header{
+    position: absolute;
+    top:0;
+    margin-top: 15%;
+    width: 100%;
+    text-align: center;
+}  
+.result_block-min_pay{
+    margin-top: 20%;
+    
+}
+.result_block-year_procent{
+    margin-bottom: 22%;
+}
+.result_block-min_pay,.result_block-first_pay_date,.result_block-credit_sum,.result_block-year_procent{
+    padding: 6% 0;
+    font-size: 20px;
+    margin-right: 3%;
+    
+}
+
+   
+  
+ 
+  
+  
+  
+  
+  
+  
